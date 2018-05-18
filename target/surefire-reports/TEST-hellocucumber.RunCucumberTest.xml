@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="hellocucumber.RunCucumberTest" time="0.094" errors="0" skipped="1">
+<testsuite tests="1" failures="0" name="hellocucumber.RunCucumberTest" time="0.107" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -62,19 +62,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.094">
-    <skipped/>
-    <system-out>Feature: Is it Friday yet?
-  Everybody wants to know when it&apos;s Friday
-
-  Scenario: Sunday isn&apos;t Friday        &amp;#27;[90m# hellocucumber/is_it_friday_yet.feature:4&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mtoday is Sunday&amp;#27;[0m              &amp;#27;[90m# Stepdefs.today_is_Sunday()&amp;#27;[0m
-      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
-	at hellocucumber.Stepdefs.today_is_Sunday(Stepdefs.java:14)
-	at ✽.today is Sunday(hellocucumber/is_it_friday_yet.feature:5)
-&amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI ask whether it&apos;s Friday yet&amp;#27;[0m &amp;#27;[90m# Stepdefs.i_ask_whether_is_s_Friday_yet()&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI should be told &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mNope&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m       &amp;#27;[90m# Stepdefs.i_should_be_told(String)&amp;#27;[0m
-</system-out>
-  </testcase>
+  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.107"/>
 </testsuite>
